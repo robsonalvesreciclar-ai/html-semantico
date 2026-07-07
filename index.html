@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semantico</title>
 </head>
+
 <body>
-    
+
+    <!-- header Elemento usado para inserir o cabeçalho na página -->
+    <!-- nav = área de navegação -->
+
+    <header>
+        <h1>Aprendendo HTML Semantico</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="conteudo-principal">Conteúdo Principal</a></li>
+                <li><a href="#informacao">Informação Extras</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main = Define o conteúdo principal da pagina, excluindo o cabeçalho e o rodapé -->
+
+    <main id="conteudo-principal">
+        <section id="introducao">
+            <h2>O que é HTML Semantico ?</h2>
+            <p>
+                HTML semântico utiliza elementos que claramente descrevem o conteúdo
+                que carregam, melhorando a legibilidade e acessibilidade
+            </p>
+        </section>
+        <!-- <article> é usado para conteúdos que podem ser independentes, como posts de blog, artigos de notícias, etc. -->
+        <article id="beneficios">
+            <h2>Benefícios do HTML Semântico</h2>
+            <p>Usar HTML semântico traz várias vantagens:</p>
+            <ul>
+                <li>
+                    Melhora o SEO, pois os motores de busca entendem melhor o conteúdo.
+                </li>
+                <li>Facilita a manutenção e a leitura do código.</li>
+                <li>Ajuda na acessibilidade para usuários de leitores de tela.</li>
+            </ul>
+        </article>
+        <section>
+            <h3>
+                <p>Exemplo de elementos Semânticos:</p>
+
+                <ul>
+                    <li><strong>Header: Usado para introduzir cabeçalhos</strong></li>
+                    <li><strong>footer: Usado para informações de rodapé</strong></li>
+                    <li><strong>Nav:</strong> Define uma área de navegação</li>
+                    <li><strong>Aside:</strong></li> Usado para informações complementares
+                </ul>
+            </h3>
+        </section>
+        <aside id="#informacao">
+            <h4>
+                Curiosidade
+            </h4>
+            <p>
+                Você sabia que o uso do HTML Semântico pode melhorar a experiência do usuário com deficiência visual?
+            </p>
+        </aside>
+
+
+
+
+    </main>
 </body>
+
 </html>
